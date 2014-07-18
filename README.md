@@ -10,7 +10,7 @@ The following protocol describes an advertisement by a proximity beacon using a 
 | 0      | AD Length                            | `0x02`          | Length of Flags AD structure in bytes
 | 1      | AD Type - Flags                      | `0x01`          | Type of AD structure as Flags type
 | 2      | AD Data - Flags                      | `0x1a`          | Flags data LE General Discoverable
-| 3      | AD Length                            | `0x1b`          | Length of Flags AD structure in bytes
+| 3      | AD Length                            | `0x1b`          | Length of manufacturer specific data AD structure in bytes
 | 4      | AD Type - Manufacturer Specific Data | `0xff`          | Type of AD structure as Manufacturere Specific Data
 | 5-6    | AD Data - Company Identifier         | `0x1801`        | Radius Networks company identifier
 | 7-8    | AD Data - Proximity Type             | `0xbeac`        | Proximity Beacon Advertisement Type 00

@@ -19,12 +19,13 @@ The development of the AltBeacon specification has been driven by several object
 
 
 ## Implementation Requirements
+
+
 Proximity beacon functionality is not limited to single function devices, but can be incorporated as a feature of any device that is Bluetooth Low Energy compliant and which conforms to the requirements defined in _Bluetooth Specification Version 4.0, Volume 0, Part B, Section 4.4 Low Energy Core Configuration or Section 4.5 Basic Rate and Low Energy Combined Core Configuration_.
 
-AltBeacon advertisements may be encapsulated as the payload of a connectable undirected advertising `PDU` (`ADV_IND`) or a non connectable undirected advertising `PDU` (`ADV_NONCONN_IND`) as defined in _Bluetooth Specification Version 4.0, Volume 6, Part B, Section 2.3 Advertising Channel PDU_.
+AltBeacon advertisements are encapsulated as the payload of a non connectable undirected advertising `PDU` (`ADV_NONCONN_IND`) as defined in _Bluetooth Specification Version 4.0, Volume 6, Part B, Section 2.3 Advertising Channel PDU_.
 
-Devices that transmit proximity beacon advertisement packets are referred to as advertisers.  Devices that receive proximity beacon advertisements are referred to as scanners. These roles follow the conventions defined in _Bluetooth Specification Version 4.0, Volume 1, Section 1.2 Overview of Bluetooth Low Energy Operation_.
-
+Devices that transmit proximity beacon advertisement packets are referred to as advertisers. Devices that receive proximity beacon advertisements are referred to as scanners. These roles follow the conventions defined in _Bluetooth Specification Version 4.0, Volume 1, Section 1.2 Overview of Bluetooth Low Energy Operation_.
 
 ## AltBeacon Protocol Format
 
@@ -33,6 +34,10 @@ The AltBeacon advertisement makes use of the Manufacturer Specific Advertising D
 The AltBeacon advertisement is made up of a 1-byte length field, 1-byte type field and two-byte company identifier, as prescribed by the Manufacturer Specific Advertising Data structure format, followed by 24 additional bytes containing the beacon advertisement data.
 
 See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below for information on the specific fields, their descriptions and accepted values.
+
+![Exploded View](./altbeacon-spec-exploded-view.png)
+
+See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below for information on the specific fields, their descriptions and accepted values.!
 
 ## AltBeacon Protocol Diagram
 
@@ -51,5 +56,3 @@ REFERENCE RSSI           | A 1-byte value representing the average received sign
 MFG RESERVED             | Reserved for use by the manufacturer to implement special features.                          | A 1-byte value from 0x00 to 0xFF. Interpretation of this value is to be defined by the manufacturer and is to be evaluated based on the MFG IDENTIFIER value.
 
 ## AltBeacon Exploded View
-
-![Exploded View](./altbeacon-spec-exploded-view.png)

@@ -48,7 +48,7 @@ Field Name               |  Description                                         
 AD LENGTH [MFG SPECIFIC] | Length of the type and data portion of the Manufacturer Specific advertising data structure. | `0x1B`
 AD TYPE [MFG SPECIFIC]   | Type representing the Manufacturer Specific advertising data structure.                      | `0xFF`
 MFG ID                   | The beacon device manufacturer's company identifier code.                                    | The little endian representation of the beacon device manufacturer's company code as maintained by the Bluetooth SIG assigned numbers database
-BEACON ADV CODE          | The AltBeacon advertisement code                                                             | `0xBEAC`
+BEACON CODE              | The AltBeacon advertisement code                                                             | `0xBEAC`
 BEACON ID                | A 20-byte value uniquely identifying the beacon                                              | The big endian representation of the beacon identifier
 REFERENCE RSSI           | A 1-byte value representing the average received signal strength at 1m from the advertiser   | A signed 1-byte value from 0 to -127
 MFG RESERVED             | Reserved for use by the manufacturer to implement special features                           | A 1-byte value from `0x00` to `0xFF`. Interpretation of this value is to be defined by the manufacturer and is to be evaluated based on the `MFG IDENTIFIER` value

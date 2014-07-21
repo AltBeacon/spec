@@ -36,6 +36,8 @@ See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below
 
 ## AltBeacon Protocol Diagram
 
+![AltBeacon Protocol Format](./altbeacon-protocol-diagram.png)
+
 
 <table>
   <caption>AltBeacon Protocol Format</caption>

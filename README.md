@@ -52,4 +52,4 @@ MFG RESERVED             | Reserved for use by the manufacturer to implement spe
 
 ## AltBeacon Exploded View
 
-![Exploded View](./altbeacon-spec-exploded-view.svg)
+![Exploded View](./altbeacon-spec-exploded-view.png)

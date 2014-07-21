@@ -1,7 +1,4 @@
-
-
 # AltBeacon Protocol Specification v1.0
-
 
 AltBeacon is a protocol specification that defines a message format for proximity beacon advertisements. AltBeacon proximity beacon advertisements are transmitted by devices for the purpose of signaling their proximity to nearby receivers. The contents of the emitted message contains information that the receiving device can use to identify the beacon and to compute its relative distance to the beacon. The receiving device may uses this information as a contextual trigger to execute procedures and implement behaviors that are relevant to being in proximity to the transmitting beacon.
 
@@ -11,8 +8,8 @@ Example use cases for proximity beacons include but are not limited to:
 * Presenting opportunities to explore additional information about an exhibit to a museum visitor
 * Automatically checking a customer in a customer with a restaurants reservation system as the customer arrives at the restaurant
 
-
 ## Design Goals
+
 The development of the AltBeacon specification has been driven by several objectives:
 
 1. Provide a concise proximity advertising message for interchange of proximity information between advertisers and scanners.
@@ -39,5 +36,8 @@ See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below
 
 ## AltBeacon Protocol Diagram
 
+TODO: Chart
 
 ## AltBeacon Protocol Fields
+
+TODO: Chart

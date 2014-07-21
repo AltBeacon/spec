@@ -33,11 +33,9 @@ The AltBeacon advertisement makes use of the Manufacturer Specific Advertising D
 
 The AltBeacon advertisement is made up of a 1-byte length field, 1-byte type field and two-byte company identifier, as prescribed by the Manufacturer Specific Advertising Data structure format, followed by 24 additional bytes containing the beacon advertisement data.
 
-See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below for information on the specific fields, their descriptions and accepted values.
-
 ![Exploded View](./altbeacon-spec-exploded-view.png)
 
-See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below for information on the specific fields, their descriptions and accepted values.!
+See the AltBeacon Protocol Data and AltBeacon Protocol Fields as described below for information on the specific fields, their descriptions and accepted values.
 
 ## AltBeacon Protocol Diagram
 

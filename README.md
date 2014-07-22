@@ -15,7 +15,7 @@ The development of the AltBeacon specification has been driven by several object
 1. Provide a concise proximity advertising message for interchange of proximity information between advertisers and scanners
 1. Maintain compliance with Bluetooth Specification Version 4.0 by utilizing defined advertising PDU and advertising data structures
 1. Encourage adoption by all interested parties by avoiding any obvious implementation restrictions
-1. Enable the implementation for vendor-specific features, if possible
+1. Enable the implementation of vendor-specific features, if possible
 
 
 ## Implementation Requirements

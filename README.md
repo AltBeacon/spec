@@ -51,5 +51,5 @@ MFG ID                   | The beacon device manufacturer's company identifier c
 BEACON CODE              | The AltBeacon advertisement code                                                             | `0xBEAC`
 BEACON ID                | A 20-byte value uniquely identifying the beacon                                              | The big endian representation of the beacon identifier
 REFERENCE RSSI           | A 1-byte value representing the average received signal strength at 1m from the advertiser   | A signed 1-byte value from 0 to -127
-MFG RESERVED             | Reserved for use by the manufacturer to implement special features                           | A 1-byte value from `0x00` to `0xFF`. Interpretation of this value is to be defined by the manufacturer and is to be evaluated based on the `MFG IDENTIFIER` value
+MFG RESERVED             | Reserved for use by the manufacturer to implement special features                           | A 1-byte value from `0x00` to `0xFF`. Interpretation of this value is to be defined by the manufacturer and is to be evaluated based on the `MFG ID` value
 

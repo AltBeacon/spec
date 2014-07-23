@@ -1,12 +1,12 @@
 # AltBeacon Protocol Specification v1.0
 
-AltBeacon is a protocol specification that defines a message format for proximity beacon advertisements. AltBeacon proximity beacon advertisements are transmitted by devices for the purpose of signaling their proximity to nearby receivers. The contents of the emitted message contains information that the receiving device can use to identify the beacon and to compute its relative distance to the beacon. The receiving device may use this information as a contextual trigger to execute procedures and implement behaviors that are relevant to being in proximity to the transmitting beacon.
+AltBeacon is a protocol specification that defines a message format for proximity beacon advertisements. AltBeacon proximity beacon advertisements are transmitted by devices for the purpose of signaling their proximity to nearby receivers. The contents of the emitted message contain information that the receiving device can use to identify the beacon and to compute its relative distance to the beacon. The receiving device may use this information as a contextual trigger to execute procedures and implement behaviors that are relevant to being in proximity to the transmitting beacon.
 
 Example use cases for proximity beacons include but are not limited to:
 
 * Notifying users of special offers as they visit areas within a department store
 * Presenting opportunities to explore additional information about an exhibit to a museum visitor
-* Automatically checking in with a restaurant's reservation system as the customer arrives at the restaurant
+* Automatically checking in with a restaurant's reservation system as the customer arrives
 
 ## Design Goals
 
@@ -21,7 +21,7 @@ The development of the AltBeacon specification has been driven by several object
 ## Implementation Requirements
 
 
-AltBeacon proximity beacon functionality is not limited to single function devices, but can be incorporated as a feature of any device that is Bluetooth Low Energy compliant and which conforms to the requirements defined in _Bluetooth Specification Version 4.0, Volume 0, Part B, Section 4.4 Low Energy Core Configuration or Section 4.5 Basic Rate and Low Energy Combined Core Configuration_.
+AltBeacon proximity beacon functionality is not limited to single-function devices, but can be incorporated as a feature of any device that is Bluetooth Low Energy compliant and which conforms to the requirements defined in _Bluetooth Specification Version 4.0, Volume 0, Part B, Section 4.4 Low Energy Core Configuration or Section 4.5 Basic Rate and Low Energy Combined Core Configuration_.
 
 AltBeacon advertisements are encapsulated as the payload of a non connectable undirected advertising `PDU` (`ADV_NONCONN_IND`) as defined in _Bluetooth Specification Version 4.0, Volume 6, Part B, Section 2.3 Advertising Channel PDU_.
 

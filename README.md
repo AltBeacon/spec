@@ -25,11 +25,11 @@ AltBeacon proximity beacon functionality is not limited to single-function devic
 
 AltBeacon advertisements are encapsulated as the payload of a non connectable undirected advertising `PDU` (`ADV_NONCONN_IND`) as defined in _Bluetooth Specification Version 4.0, Volume 6, Part B, Section 2.3 Advertising Channel PDU_.
 
-Devices that transmit proximity beacon advertisement packets are referred to as advertisers. Devices that receive proximity beacon advertisements are referred to as scanners. These roles follow the conventions defined in _Bluetooth Specification Version 4.0, Volume 1, Section 1.2 Overview of Bluetooth Low Energy Operation_.
+Devices that transmit proximity beacon advertisement packets are referred to as advertisers. Devices that receive proximity beacon advertisements are referred to as scanners. These roles follow the conventions defined in _Bluetooth Specification Version 4.0, Volume 1, Part A, Section 1.2 Overview of Bluetooth Low Energy Operation_.
 
 ## AltBeacon Protocol Format
 
-The AltBeacon advertisement makes use of the Manufacturer Specific Advertising Data structure as defined in _Bluetooth Specification Version 4.0, Volume 3, Part C, Section 2.3 Advertising Channel PDU_.
+The AltBeacon advertisement makes use of the Manufacturer Specific Advertising Data structure as defined in _Bluetooth Specification Version 4.0, Volume 6, Part B, Section 2.3 Advertising Channel PDU_.
 
 The AltBeacon advertisement is made up of a 1-byte length field, 1-byte type field and two-byte company identifier, as prescribed by the Manufacturer Specific Advertising Data structure format, followed by 24 additional bytes containing the beacon advertisement data.
 
